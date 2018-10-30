@@ -1,0 +1,1 @@
+find . -name *.osm -print0 | xargs -0 -n 1 _osm2geojson

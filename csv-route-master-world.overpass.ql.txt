@@ -1,0 +1,8 @@
+[out:csv(::"type",::"id", route_master,name;true;"|")][timeout:2000];
+(
+  rel[route_master=bus];
+  rel[route_master=train];
+  rel[route_master=tram];
+  rel[route_master=subway];
+);
+out;
